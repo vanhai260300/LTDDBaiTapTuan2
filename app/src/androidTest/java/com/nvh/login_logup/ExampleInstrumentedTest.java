@@ -1,4 +1,4 @@
-package com.nvh.profile0;
+package com.nvh.login_logup;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.nvh.profile0", appContext.getPackageName());
+        assertEquals("com.nvh.login_logup", appContext.getPackageName());
     }
 }
